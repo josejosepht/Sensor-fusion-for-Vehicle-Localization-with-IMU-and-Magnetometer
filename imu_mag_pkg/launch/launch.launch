@@ -1,0 +1,4 @@
+<launch>
+  <node name="gpslab" pkg="imu_mag" type="gpslab.py" output="screen"/>  
+  <node name="imu_script" pkg="imu_mag" type="imu_script.py" output="screen"/>
+</launch>
